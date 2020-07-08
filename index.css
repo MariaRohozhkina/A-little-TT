@@ -1,0 +1,144 @@
+.header-and-main-info-container {
+    background-image: url(/assets/headerbackground.png);
+    background-size: cover; 
+}
+
+.header {
+    height: 100px;
+    background-color: #10101dd9;
+}
+
+.header__content-container {
+    width: 61%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content-container__h1 {
+    font-size: 28px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+}
+
+.header__content-container__h1 span {
+    color: #42a9ed;
+}
+
+.navigation {
+    width: 40%;
+}
+
+.navigation__ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.navigation__ul__first-link {
+    color: #42a9ed;
+}
+
+/* Main info */
+
+.main-info-container {
+    width: 61%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-bottom: 100px;
+}
+
+.main-info-container__h2 {
+    width: 85%;
+
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+
+    text-transform: uppercase;
+}
+
+.main-info-container__h2 span {
+    color: #3e9cdc;
+}
+
+.advantages-container {
+    margin-top: 5%;
+}
+
+.advantages-container__h4 {
+    font-size: 20px;
+    line-height: 34px;
+    color: #2a2b30;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.advantages-container__ul {
+    font-size: 20px;
+    line-height: 34px;
+    color: #2a2b30;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+}
+
+.main-info-container__buttons {
+    margin-top: 5%;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-info-container__buttons__first-btn {
+    width: 183px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #3e9cdc;
+    border: 1px solid #ffffff;
+
+    text-align: center;
+}
+
+.main-info-container__buttons__first-btn p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.main-info-container__buttons__second-btn {
+    width: 183px;
+    height: 42px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #6f6d7b;
+}
+
+.main-info-container__buttons__second-btn p {
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #2a2b30;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
