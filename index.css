@@ -27,7 +27,7 @@
 	align-items: center;
 }
 
-.header__content-container__h1 {
+.header__h1 {
 	font-size: 28px;
 	line-height: 18px;
 	color: #ffffff;
@@ -35,7 +35,7 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-.header__content-container__h1 span {
+.header__h1 span {
 	color: #42a9ed;
 }
 
@@ -56,7 +56,7 @@
 	font-family: 'Lato', sans-serif;
 }
 
-.navigation__ul__first-link {
+.navigation__first-link {
 	color: #42a9ed;
 }
 
@@ -64,7 +64,10 @@
 
 .main-info-container {
 	width: 61%;
-	margin: 0 auto;
+}
+
+.header-and-main-info-container__main-info-container {
+    margin: 0 auto;
 	margin-top: 5%;
 	padding-bottom: 100px;
 }
@@ -84,7 +87,7 @@
 	color: #3e9cdc;
 }
 
-.advantages-container {
+.main-info-container__advantages-container {
 	margin-top: 5%;
 }
 
@@ -113,7 +116,7 @@
 	flex-wrap: wrap;
 }
 
-.main-info-container__buttons__first-btn {
+.main-info-container__first-btn {
 	width: 183px;
 	height: 42px;
 
@@ -132,7 +135,7 @@
 	outline: none;
 }
 
-.main-info-container__buttons__second-btn {
+.main-info-container__second-btn {
 	width: 183px;
 	height: 42px;
 
@@ -162,7 +165,10 @@
 
 .order-content-container {
 	width: 61%;
-	margin: 0 auto;
+}
+
+.order-container__order-content-container {
+    margin: 0 auto;
 	padding-top: 7%;
 }
 
@@ -622,7 +628,7 @@ input[type='range']:focus::-ms-fill-upper {
 		width: 90%;
 	}
 
-	.header__content-container__h1 {
+	.header__h1 {
 		font-size: 22px;
 	}
 
@@ -694,7 +700,7 @@ input[type='range']:focus::-ms-fill-upper {
 }
 
 @media screen and (max-width: 430px) {
-	.header__content-container__h1 {
+	.header__h1 {
 		font-size: 15px;
 	}
 
